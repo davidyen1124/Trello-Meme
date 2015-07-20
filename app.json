@@ -1,0 +1,6 @@
+{
+	"name": "trello-meme",
+	"description": "Set meme cover when trello cards being added",
+	"repository": "https://github.com/davidyen1124/Trello-Meme",
+	"keywords": ["node", "trello", "express", "meme"]
+}
