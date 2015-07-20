@@ -1,5 +1,4 @@
 # Trello-Meme
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 Want meme picture as cover on every card?
 
