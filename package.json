@@ -9,8 +9,7 @@
     "google-images": "^0.1.0",
     "mime": "^1.3.4",
     "natural": "^0.2.1",
-    "request": "^2.58.0",
-    "trello": "^0.3.0"
+    "request": "2.57.0"
   },
   "devDependencies": {},
   "scripts": {
