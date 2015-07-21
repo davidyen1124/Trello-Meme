@@ -1,0 +1,16 @@
+{
+	"name": "trello-meme",
+	"description": "Set meme cover when trello cards being added",
+	"repository": "https://github.com/davidyen1124/Trello-Meme",
+	"keywords": ["node", "trello", "express", "meme"],
+	"env": {
+		"TRELLO_KEY": {
+			"description": "Trello application key",
+			"value": ""
+		},
+		"TRELLO_SECRET": {
+			"description": "Trello application secret",
+			"value": ""
+		}
+	}
+}
