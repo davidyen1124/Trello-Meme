@@ -4,8 +4,6 @@ var app = express();
 var request = require('request');
 var path = require('path');
 var mime = require('mime');
-var natural = require('natural');
-var tokenizer = new natural.WordTokenizer();
 var google = require('google-images');
 
 // upload attachment to trello
@@ -64,7 +62,7 @@ app.post('/', function(req, res) {
 	}
 
 	// tokenize the words
-	var tokens = tokenizer.tokenize(text);
+	var tokens = text.split(' ');
 	if (!tokens || !tokens.length) {
 		return;
 	}
