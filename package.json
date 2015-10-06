@@ -6,7 +6,7 @@
   "dependencies": {
     "body-parser": "^1.13.2",
     "express": "^4.13.1",
-    "google-images": "^0.1.0",
+    "google-images": "^0.1.1",
     "mime": "^1.3.4",
     "request": "2.57.0"
   },
