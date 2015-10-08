@@ -20,7 +20,7 @@ var addAttachment = function (cardId, url, callback) {
       token: process.env.TRELLO_SECRET
     },
     formData: {
-      url: url,
+      file: request(url),
       name: fileName,
       mimeType: contentType
     }
